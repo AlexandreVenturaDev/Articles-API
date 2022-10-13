@@ -1,0 +1,19 @@
+{
+  "name": "Articles-API",
+  "version": "1.0.0",
+  "description": "RESTful API for creating articles on websites or blogs. It determines methods for creating, changing, and removing titles and content from the back-end to the front-end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Alexandre Ventura",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.6.5",
+    "nodemon": "^2.0.20"
+  }
+}
